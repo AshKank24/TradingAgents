@@ -36,7 +36,7 @@ if 'chat_history' not in st.session_state:
 
 # Load documentation
 try:
-    loader = PyPDFLoader(r'assets\App Documentation.pdf')
+    loader = PyPDFLoader(r'assets/App Documentation.pdf')
     docs = loader.load()
 except Exception as e:
     st.error(f"Error loading documentation: {str(e)}")
