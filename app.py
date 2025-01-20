@@ -357,8 +357,8 @@ def main():
         
         st.subheader("Risk Management")
         strategy_params.update({
-            'stop_loss': st.slider("Stop Loss (%)", 1.0, 10.0, 5.0),
-            'take_profit': st.slider("Take Profit (%)", 1.0, 20.0, 10.0)
+            'stop_loss': st.slider("Stop Loss (%)", 0.0, 10.0, 5.0),
+            'take_profit': st.slider("Take Profit (%)", 0.0, 20.0, 10.0)
         })
         
         st.subheader("Strategy 1 Parameters")
